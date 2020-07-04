@@ -17,7 +17,7 @@ jobs:
               with:
                 tag: latest,1.0.0
                 imageName: ilteoood/rar-on-arm
-                platform: linux/arm64,linux/386,linux/arm/v7,linux/arm/v6
+                platform: linux/arm64,linux/arm/v7,linux/arm/v6
                 publish: true
                 dockerHubUser: ilteoood
                 dockerHubPassword: ${{ secrets.DOCKER_HUB_PASSWORD }}
